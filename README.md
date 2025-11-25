@@ -1,2 +1,37 @@
-# Topologia-de-redes-de-computadores-e-site-da-topologia
-Neste projeto, há a presença de um site feito em HTML e CSS, para analisar quais são as rotas e para onde estão indo, todas as informações das rotas, IP's, DNS e entre outros elementos fundamentais da topologia. Na topologia há os seguintes conteudos:  endereçamento, roteamento, DHCP, DNS, NAT, Wifi e IPv6.
+# Topologia de Redes de Computadores e Site da Topologia
+
+Este repositório contém um projeto criado para demonstrar conceitos fundamentais de redes de computadores, incluindo topologias, endereçamento, roteamento e serviços essenciais como DHCP, DNS e NAT.  
+Além disso, um site em **HTML e CSS** foi desenvolvido para apresentar visualmente as rotas, IPs e o funcionamento geral da comunicação dentro da topologia.
+
+---
+
+## Estrutura do Projeto
+
+- **/site/** – Arquivos HTML e CSS do site explicativo  
+- **/topologia/** – Arquivo do Packet Tracer com a topologia de rede  
+- **README.md** – Documentação do projeto  
+- **LICENÇA** – Licença do repositório  
+
+---
+
+## Componentes da Topologia
+
+A topologia desenvolvida inclui:
+
+-  **Endereçamento IPv4**
+-  **Roteamento**
+-  **DHCP**
+-  **DNS**
+-  **NAT (IPv4)**
+-  **Wi-Fi**
+-  **IPv6 (se aplicável)**
+
+---
+
+## Demonstração da Topologia
+
+*(tenho que colocar uma foto aqui)*  
+Exemplo:
+
+```markdown
+![Topologia de Rede](caminho/para/imagem.png)
