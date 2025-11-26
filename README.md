@@ -24,7 +24,6 @@ A topologia desenvolvida inclui:
 -  **DNS**
 -  **NAT (IPv4)**
 -  **Wi-Fi**
--  **IPv6**
 
 ---
 
