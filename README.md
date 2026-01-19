@@ -29,6 +29,6 @@ A topologia desenvolvida inclui:
 
 Exemplo: 
  ![Topologia de Rede](https://raw.githubusercontent.com/Melrik-Rhau/Topologia-de-redes-de-computadores-e-site-da-topologia/main/topologia/imagens/topologia.jpeg)
-g
+
 
 
