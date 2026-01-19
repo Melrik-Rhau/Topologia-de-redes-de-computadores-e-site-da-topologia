@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Pools DHCP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tabela de Pools DHCP e DNS</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="equipamentos.html">Equipamentos</a>
+      <a href="ips.html">IPs</a>
+      <a href="rotas.html">Rotas</a>
+      <a href="dhcp.html">DHCP e DNS</a>
+    </nav>
+  </header>
+
+  <main>
+    <table>
+      <tr>
+        <th>Pool Name</th>
+        <th>Default Gateway</th>
+        <th>DNS Server</th>
+        <th>Start IP Address</th>
+        <th>Subnet Mask</th>
+        <th>Max User</th>
+        <th>TFTP Server</th>
+        <th>WLC Address</th>
+      </tr>
+
+      <tr>
+        <td>internet</td>
+        <td>172.15.0.1</td>
+        <td>172.15.0.1</td>
+        <td>172.15.0.2</td>
+        <td>255.255.0.0</td>
+        <td>1000</td>
+        <td>0.0.0.0</td>
+        <td>0.0.0.0</td>
+      </tr>
+
+      <tr>
+        <td>filial</td>
+        <td>192.168.6.1</td>
+        <td>192.168.6.1</td>
+        <td>192.168.6.2</td>
+        <td>255.255.255.0</td>
+        <td>100</td>
+        <td>0.0.0.0</td>
+        <td>0.0.0.0</td>
+      </tr>
+
+      <tr>
+        <td>sala1</td>
+        <td>172.16.0.1</td>
+        <td>172.16.0.1</td>
+        <td>172.16.0.2</td>
+        <td>255.255.0.0</td>
+        <td>1000</td>
+        <td>0.0.0.0</td>
+        <td>0.0.0.0</td>
+      </tr>
+
+      <tr>
+        <td>sala2</td>
+        <td>172.17.0.1</td>
+        <td>172.17.0.1</td>
+        <td>172.17.0.2</td>
+        <td>255.255.0.0</td>
+        <td>1000</td>
+        <td>0.0.0.0</td>
+        <td>0.0.0.0</td>
+      </tr>
+
+      <tr>
+        <td>serverPool</td>
+        <td>0.0.0.0</td>
+        <td>0.0.0.0</td>
+        <td>192.168.2.0</td>
+        <td>255.255.255.0</td>
+        <td>256</td>
+        <td>0.0.0.0</td>
+        <td>0.0.0.0</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>Projeto de Redes - Tabela DHCP</p>
+  </footer>
+</body>
+</html>

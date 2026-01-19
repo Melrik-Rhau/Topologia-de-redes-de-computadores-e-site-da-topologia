@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Endereços IP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tabela de Endereços IP</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="equipamentos.html">Equipamentos</a>
+      <a href="ips.html">IPs</a>
+      <a href="rotas.html">Rotas</a>
+    </nav>
+  </header>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Equipamento</th>
+          <th>Endereço IP</th>
+          <th>Máscara</th>
+          <th>IP Gateway</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- SALA 1 -->
+        <tr><td>PC0</td><td>192.168.3.2</td><td>/24</td><td>192.168.3.1</td></tr>
+        <tr><td>PC1</td><td>192.168.3.3</td><td>/24</td><td>192.168.3.1</td></tr>
+
+        <!-- SALA 2 -->
+        <tr><td>PC2</td><td>192.168.4.2</td><td>/24</td><td>192.168.4.1</td></tr>
+        <tr><td>PC3</td><td>192.168.4.3</td><td>/24</td><td>192.168.4.1</td></tr>
+
+        <!-- FILIAL PG -->
+        <tr><td>PC6</td><td>192.168.6.2</td><td>/16</td><td>192.168.6.1</td></tr>
+        <tr><td>PC7</td><td>192.168.6.3</td><td>/16</td><td>192.168.6.1</td></tr>
+
+        <!-- SERVIDORES MATRIZ -->
+        <tr><td>Server3</td><td>192.168.2.2</td><td>/24</td><td>192.168.2.1</td></tr>
+        <tr><td>Server4</td><td>192.168.2.3</td><td>/24</td><td>192.168.2.1</td></tr>
+
+        <!-- SERVIDORES INTERNET -->
+        <tr><td>Server0 (Telecom)</td><td>192.168.8.2</td><td>/16</td><td>192.168.8.1</td></tr>
+        <tr><td>Server1 (Telecom)</td><td>192.168.8.3</td><td>/16</td><td>192.168.8.1</td></tr>
+
+        <!-- ROTEADORES MATRIZ -->
+        <tr><td>Router Matriz Fa0/0</td><td>192.168.3.1</td><td>/24</td><td>-</td></tr>
+        <tr><td>Router Matriz Fa7/0</td><td>192.168.4.1</td><td>/24</td><td>-</td></tr>
+        <tr><td>Router Matriz Fa5/0</td><td>200.1.1.1</td><td>/30</td><td>-</td></tr>
+        <tr><td>Router Matriz Fa4/0</td><td>200.1.1.5</td><td>/30</td><td>-</td></tr>
+        <tr><td>Router Matriz Fa2/0</td><td>192.168.2.1</td><td>/24</td><td>-</td></tr>
+
+        <!-- ROTEADOR INTERNET TELECOM -->
+        <tr><td>Router Telecom Fa0/0</td><td>192.168.8.254</td><td>/16</td><td>-</td></tr>
+        <tr><td>Router1 Fa0/0</td><td>200.1.1.2</td><td>/30</td><td>-</td></tr>
+        <tr><td>Router1 Fa0/1</td><td>192.168.1.1</td><td>/24</td><td>-</td></tr>
+        <tr><td>Router1 Loopback</td><td>200.1.1.1</td><td>/32</td><td>-</td></tr>
+
+        <!-- ROTEADOR FILIAL -->
+        <tr><td>Router2 Fa4/0</td><td>200.1.1.6</td><td>/30</td><td>-</td></tr>
+        <tr><td>Router2 Fa0/0</td><td>192.168.6.1</td><td>/16</td><td>-</td></tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Projeto de Redes - Simulação</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Rotas - Roteadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tabela de Rotas (Somente Roteadores)</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="equipamentos.html">Equipamentos</a>
+      <a href="ips.html">IPs</a>
+      <a href="rotas.html">Rotas</a>
+    </nav>
+  </header>
+
+  <main>
+    <table>
+      <tr>
+        <th>Equipamento</th>
+        <th>Rede Destino</th>
+        <th>Máscara</th>
+        <th>IP Gateway</th>
+      </tr>
+
+
+      <tr>
+        <td rowspan="4">Router0</td>
+        <td>192.168.6.0</td>
+        <td>/24</td>
+        <td>200.1.1.6</td>
+      </tr>
+      <tr>
+        <td>192.168.8.0</td>
+        <td>/24</td>
+        <td>200.1.1.2</td>
+      </tr>
+      <tr>
+        <td>192.168.3.0</td>
+        <td>/24</td>
+        <td>200.1.1.14</td>
+      </tr>
+      <tr>
+        <td>192.168.2.0</td>
+        <td>/24</td>
+        <td>200.1.1.10</td>
+      </tr>
+
+    
+      <tr>
+        <td rowspan="2">Router1</td>
+        <td>192.168.2.0</td>
+        <td>/24</td>
+        <td>200.1.1.10</td>
+      </tr>
+      <tr>
+        <td>0.0.0.0</td>
+        <td>/16</td>
+        <td>200.1.1.1</td>
+      </tr>
+
+    
+      <tr>
+        <td>Router2</td>
+        <td>0.0.0.0</td>
+        <td>/16</td>
+        <td>200.1.1.5</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>Projeto de Redes - Simulação</p>
+  </footer>
+</body>
+</html>
