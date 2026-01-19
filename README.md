@@ -28,7 +28,8 @@ A topologia desenvolvida inclui:
 ## Demonstração da Topologia
 
 Exemplo: 
-  topologia/imagens/topologia.jpeg
+ ![Topologia de Rede](https://raw.githubusercontent.com/Melrik-Rhau/Topologia-de-redes-de-computadores-e-site-da-topologia/main/topologia/imagens/topologia.jpeg)
+g
 
 ```markdown
 ![Topologia de Rede](caminho/para/imagem.png)
