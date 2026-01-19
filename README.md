@@ -25,12 +25,10 @@ A topologia desenvolvida inclui:
 -  **NAT (IPv4)**
 -  **Wi-Fi**
 
----
-
 ## Demonstração da Topologia
 
-*(tenho que colocar uma foto aqui)*  
-Exemplo:
+
+Exemplo: 
 
 ```markdown
 ![Topologia de Rede](caminho/para/imagem.png)
